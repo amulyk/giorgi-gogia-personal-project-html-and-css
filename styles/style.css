@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-align: border-box;
+}
+
+body > section {
+    border: lightgray thin solid;
+    box-sizing: border-box;
+}
+
+.c {
+    width: 100%;
+}
+
+.component-1 {
+    height: 100vh;
+    background: #222533;
+    font-family: 'Lato';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.component-1 > .div-1 > .white{
+    color: white;
+}
+
+.component-1 > h1 {
+    color: white;
+}
+
+.component-1 > h2 {
+    color: white;
+}
+
+.component-1 > .div-1 > .green {
+    color: #1ABC9C;
+}
+
+.component-1 > .div-2 > .b {
+    color: white;
+    text-decoration: none;
+    border-radius:3px;
+    padding: 5px;
+}
+
+.component-1 > .div-2 > .button-1 {
+    border: thin white solid;
+}
+
+.component-1 > .div-2 > .button-2 {
+    border: thin #1ABC9C solid;
+    background-color: #1ABC9C;
+}
+
+.component-1 > .div-3 {
+    margin-top: 20px;
+}
+
+.component-2 {
+    font-family: 'Lato';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 34.2px 0;
+    width: 100%;
+}
+
+.component-2 > .thefox {
+    margin-right: 39.7px;
+}
+
+.component-2 > .menu > span {
+    margin-left: 10px;
+}
+
+.component-3 {
+    font-family: 'Lato';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.component-3 > div {
+    border: thin gray solid;
+    margin-left: 50px;
+    width: 270px;
+    height: 210px;
+    text-align: center;
+}
+
+.component-3 > div > h1 {
+    padding: 0px 40px;
+}
+
+.component-3 > div > p {
+    padding: 0px 40px;
+}
+
+.component-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.component-4 > .text {
+    width: 570px;
+}
+
+.component-4 .image {
+    width: 42.42vw;
+}
+
