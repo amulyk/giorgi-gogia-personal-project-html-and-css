@@ -685,6 +685,7 @@
     height: 18px;
     display: inline-block;
     margin-right: 19px;
+    transform: translateY(1px);
   }
   
   .posts-title {
